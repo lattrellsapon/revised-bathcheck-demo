@@ -6,6 +6,7 @@ export const SB1_buttonNext = () => {
 
   const goToNextQuestion = () => {
     addStep();
+    console.log('clicked');
   };
 
   return (
