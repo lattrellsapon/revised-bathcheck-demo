@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.danger {
+  color: red;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.form-container {
+  margin: auto;
+}
+
+.mtb-20 {
+  margin: 20px 0px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-end-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-button {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  padding: 20px;
+  text-align: center;
+}
+
+.form-image-container {
+  margin: auto;
+}
+
+.yes-no-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.yes-no-buttons-container {
+  padding: 10px;
+}
+
+.questions-buttons {
+  background: #f8f8f8;
+  padding: 8px 15px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.message-to-user {
+  background: red;
+  margin: auto;
+  width: 80%;
+}
+
+.input-field {
+  padding: 5px;
+  outline: none;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+  .form-image-container {
+    width: 100%;
+  }
+  .yes-no-container {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .form-image-container {
+    width: 60%;
+  }
+  .yes-no-container {
+    width: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .form-container {
+    width: 80%;
+  }
+  .form-image-container {
+    width: 40%;
+  }
+  .yes-no-container {
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
