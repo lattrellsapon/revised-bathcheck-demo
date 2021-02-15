@@ -11,7 +11,7 @@ export const SB1_form2 = () => {
   return (
     <div>
       <div className='mb-20'>
-        <h3 className='mb-20'>Question 2.</h3>
+        <h3 className='mb-20'>Question 2</h3>
         <p>
           The recommended space in front of the shower doors, for connection of
           the chair to the bridge and shower base is 950mm, but this can be

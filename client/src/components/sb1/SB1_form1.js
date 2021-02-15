@@ -11,7 +11,7 @@ export const SB1_form1 = () => {
   return (
     <div>
       <div className='mb-20'>
-        <h3 className='mb-20'>Question 1.</h3>
+        <h3 className='mb-20'>Question 1</h3>
         <p>
           The recommended minimum width of the bathroom door, shower door, or
           walkway area, is 575mm but this can be narrower, refer to results.
