@@ -4,7 +4,7 @@ export default (state, action) => {
     case 'ADD_STEP':
       return {
         ...state,
-        step: state.step++,
+        step: state.step + 1,
       };
     // Question One
     case 'QUESTION_ONE_YES_OR_NO':
