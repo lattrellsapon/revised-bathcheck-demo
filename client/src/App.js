@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './components/layout/Navbar';
 import { SB1 } from './components/pages/SB1';
@@ -8,12 +10,16 @@ import { SB1Provider } from './context/sb1/SB1State';
 function App() {
   return (
     <SB1Provider>
-      <div className='App'>
-        <Navbar />
-        <div className='container'>
-          <SB1 />
+      <Router>
+        <div className='App'>
+          <Navbar />
+          <div className='container'>
+            <Switch>
+              <Route exact path='/' component={SB1} />
+            </Switch>
+          </div>
         </div>
-      </div>
+      </Router>
     </SB1Provider>
   );
 }
